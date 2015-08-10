@@ -3,3 +3,6 @@ concoord: concoord.o
 
 install:
 	cp concoord /usr/bin
+
+clean:
+	rm concoord concoord.o
