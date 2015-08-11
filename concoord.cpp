@@ -287,7 +287,7 @@ class Process{
 		head << "\n\n";
 		
 		for(int i = 0; i < idCount; i++){
-			head << path[i].name << "X[" <<
+			head << "short " << path[i].name << "X[" <<
 				    path[i].elements << "] = { ";
 			for(int j = 0; j < path[i].elements; j++){
 				head << path[i].coordX[j];
@@ -298,7 +298,7 @@ class Process{
 			head << " };\n";
 			
 			
-			head << path[i].name << "Y[" <<
+			head << "short " << path[i].name << "Y[" <<
 				    path[i].elements << "] = { ";
 			for(int j = 0; j < path[i].elements; j++){
 				head << path[i].coordY[j];
