@@ -19,4 +19,6 @@ to return an accompanying
 ```
 in the original files' respective directories.
 
+```make install``` to install the binary to /usr/bin.
+
 Concoord is licensed as zlib, see more in LICENSE.
